@@ -1,0 +1,42 @@
+/* ここから下に記載していく */
+#header{display: flex;}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 50px;
+        background-color: white;
+            box-sizing: border-box;
+            
+}
+nav div{
+    display: block;
+    margin-right: 50px;
+}
+.mainvisual{position: relative;}
+.mainvisual img{width: 100%; height: auto; }
+.mainvisual h1{position: absolute;
+        padding: 0px;
+        margin: 0;
+        font-size: 30px;
+        color: white;
+        
+}
+.mainvisual h2{position: absolute;
+        padding: 50px;
+        margin: 0;
+        font-size: 30px;
+        color:white;
+}
+.about h1{font-size: 24px;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 18px;
+}
+.about p{font-size: 16px;}
+.about img{display: inline-block;}
+
+.course1{
+    display: flex;
+    align-items: center;
+}
